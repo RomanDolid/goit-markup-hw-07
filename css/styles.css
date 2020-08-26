@@ -21,7 +21,7 @@
   --background-btn-modal-focus: #188ce8;
 }
 
-html {
+/* html {
   box-sizing: border-box;
 }
 
@@ -66,7 +66,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   align-items: center;
-}
+} */
 .page-heder {
   border-bottom: 1px solid var(--boder-line-head);
 }
