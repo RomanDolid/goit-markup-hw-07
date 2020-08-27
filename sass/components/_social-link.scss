@@ -1,0 +1,44 @@
+.list .my-link .item + .item {
+  margin-left: 10px;
+}
+.my-link {
+  display: flex;
+  justify-content: space-between;
+}
+.team .icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+.team .link:hover,
+.team .link:focus {
+  color: $primary-white-color;
+  background-color: $accent-color;
+}
+
+.our-link .icon {
+  width: 20px;
+  height: 20px;
+  fill: $primary-white-color;
+}
+
+.our-link .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: $hover-color-link;
+}
+
+.our-link {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.our-link .link:hover,
+.our-link .link:focus {
+  background-color: $accent-color;
+}

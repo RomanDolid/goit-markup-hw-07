@@ -1,0 +1,228 @@
+.hero {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 93px;
+}
+
+.hero-img {
+  padding-top: 153px;
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $background-hero;
+  background-image: linear-gradient($gradient-hero, $gradient-hero),
+    url("../images/Header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.advantage,
+.operations,
+.team,
+.clients {
+  margin-top: 0;
+  margin-bottom: 94px;
+}
+.hero-title {
+  margin-top: 0px;
+  margin-bottom: 26px;
+
+  color: $primary-white-color;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero .link {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: $primary-white-color;
+  background-color: $accent-color;
+  border: none;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.excellence {
+  display: flex;
+}
+
+.excellence .item + .item {
+  margin-left: 30px;
+}
+
+.icone {
+  display: inline-block;
+  padding: 25px 100px;
+  width: 270px;
+  background-color: $beck-btn-portfolio;
+  margin-bottom: 30px;
+}
+.icone .icon {
+  width: 70px;
+  height: 70px;
+}
+
+.advantage .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.advantage .text {
+  color: $title-text-color;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+
+.operations .title,
+.team .title,
+.clients .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.our-work {
+  display: flex;
+}
+
+.our-work .item + .item {
+  margin-left: 30px;
+}
+
+.operations .item {
+  position: relative;
+}
+
+.operations .text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  margin: 0;
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  text-align: center;
+
+  color: $primary-white-color;
+  background-color: $background-operation-icon;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.our-team {
+  display: flex;
+}
+.our-team .item + .item {
+  margin-left: 30px;
+}
+.team {
+  background-color: $beck-btn-portfolio;
+}
+.team .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container-persons {
+  width: 270px;
+  text-align: center;
+  padding-bottom: 24px;
+  background-color: $primary-white-color;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.team-persons {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.container-persons .list {
+  width: 206px;
+  margin-right: 32px;
+  margin-left: 32px;
+}
+
+.team .text {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: $title-text-color;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team .link {
+  color: $second-border-colo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.our-clients {
+  display: flex;
+  align-items: stretch;
+}
+.our-clients .item + .item {
+  margin-left: 30px;
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  width: 170px;
+  height: 90px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid $second-border-colo;
+  box-sizing: border-box;
+  fill: $second-border-colo;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  border-color: $accent-color;
+  fill: $accent-color;
+}
+
