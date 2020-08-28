@@ -65,13 +65,14 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
-
-  &:focus + .form-icon {
-    color: $accent-color;
-  }
-
+  
   &:focus {
     outline-color: $accent-color;
+
+    + .form-icon {
+      color: $accent-color;
+    }
+  
   }
 }
 
@@ -142,4 +143,23 @@
     background-size: contain;
     background-origin: border-box;
   }
+}
+
+.futer-windows {
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-right: 12px;
+  border: 1px solid $futer-borber;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  background-color: $beck-futer-color;
+  color: $accent-futer-color;
 }

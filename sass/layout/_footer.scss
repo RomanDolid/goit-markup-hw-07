@@ -5,11 +5,23 @@
 .futer-nav {
   background-color: $beck-futer-color;
   color: $primary-white-color;
-}
 
-.futer-nav .adress {
-  color: $primary-white-color;
-  text-decoration: none;
+  .adress {
+    color: $primary-white-color;
+    text-decoration: none;
+  }
+
+  .link {
+    color: $accent-futer-color;
+  }
+
+  .contakts {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
 }
 
 .futer-address {
@@ -17,86 +29,51 @@
   padding-bottom: 60px;
 }
 
-
-.futer-nav .link {
-  color: $accent-futer-color;
-}
-
-.futer-nav .contakts {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-
 .futer-link {
   padding-top: 72px;
   padding-bottom: 100px;
   margin-right: 94px;
   margin-left: 69px;
+
+  .list {
+    width: 206px;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
 }
+
 .foter-account {
   padding-top: 72px;
   padding-bottom: 94px;
+
+  .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
 }
 
-.futer-link .list {
-  width: 206px;
-}
-
-.futer-link .title,
-.foter-account .title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-.futer-btn {
+.futer-flex-btn {
   display: flex;
   margin-top: 20px;
   flex-direction: row;
 }
-.windows {
-  width: 358px;
-  height: 50px;
-  border-radius: 4px;
-  text-align: left;
-  padding-left: 10px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  margin-right: 12px;
-  border: 1px solid $futer-borber;
-  box-sizing: border-box;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  background-color: $beck-futer-color;
-  color: $accent-futer-color;
-}
+
 .fly {
   width: 24px;
   height: 24px;
   fill: $primary-white-color;
   margin-left: 10px;
-}
-.btn {
-  display: flex;
-  align-items: center;
-  min-width: 200px;
-  height: 50px;
-  border-radius: 4px;
-  padding: 10px 29px;
-  border: none;
-  color: $primary-white-color;
-  background-color: $accent-color;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
 }
