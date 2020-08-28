@@ -6,7 +6,7 @@
   background-color: $beck-futer-color;
   color: $primary-white-color;
 }
-.futer-nav .logo,
+
 .futer-nav .adress {
   color: $primary-white-color;
   text-decoration: none;
@@ -16,10 +16,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.futer-logo {
-  margin-top: 0;
-  margin-bottom: 20px;
-}
+
 
 .futer-nav .link {
   color: $accent-futer-color;
@@ -46,11 +43,6 @@
 
 .futer-link .list {
   width: 206px;
-}
-
-.futer-nav .logo:hover,
-.futer-nav .logo:focus {
-  color: $accent-color;
 }
 
 .futer-link .title,

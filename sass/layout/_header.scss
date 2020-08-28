@@ -1,25 +1,30 @@
 .page-heder {
   border-bottom: 1px solid $boder-line-head;
 }
+
 .main-nav {
   display: flex;
   align-items: center;
 }
+
 .site-nav {
   display: flex;
   margin-left: 85px;
-}
-.site-nav .item + .item {
-  margin-left: 50px;
-}
-.site-nav .link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: $accent-color;
+
+  .item + .item {
+    margin-left: 50px;
+  }
+  .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
+
 }
 
 .list .current-studio {
@@ -29,7 +34,6 @@
 .current-studio::before {
   position: absolute;
   bottom: 0;
-
   content: "";
   width: 100%;
   height: 4px;

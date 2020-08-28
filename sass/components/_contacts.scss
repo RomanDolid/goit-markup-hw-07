@@ -1,29 +1,33 @@
 .contakts {
   margin-left: auto;
-}
-.contakts .link {
-  color: $title-text-color;
 
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  .link {
+    color: $title-text-color;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
 }
+
 .auth-nav {
   display: flex;
-}
-.auth-nav .link {
-  display: flex;
-  align-items: center;
-}
-.auth-nav .item + .item {
-  margin-left: 30px;
-}
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-  color: $accent-color;
+
+  .link {
+    display: flex;
+    align-items: center;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
+  
+  .item + .item {
+    margin-left: 30px;
+  }
 }
 
 .mail-icon {
