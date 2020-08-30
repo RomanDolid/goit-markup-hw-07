@@ -2,35 +2,63 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/roboto/roboto-v20-latin-regular.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin-regular.woff") format("woff");
+  src: url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v20-latin-regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/roboto/roboto-v20-latin-500.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin-500.woff") format("woff");
+  src: url("../fonts/roboto-v20-latin-500.woff2") format("woff2"), url("../fonts/roboto-v20-latin-500.woff") format("woff");
 }
 
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/roboto/roboto-v20-latin-700.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin-700.woff") format("woff");
+  src: url("../fonts/roboto-v20-latin-700.woff2") format("woff2"), url("../fonts/roboto-v20-latin-700.woff") format("woff");
 }
 
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
-  src: url("../fonts/roboto/roboto-v20-latin-900.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin-900.woff") format("woff");
+  src: url("../fonts/roboto-v20-latin-900.woff2") format("woff2"), url("../fonts/roboto-v20-latin-900.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v20-cyrillic-regular.woff2") format("woff2"), url("../fonts/roboto-v20-cyrillic-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v20-cyrillic-500.woff2") format("woff2"), url("../fonts/roboto-v20-cyrillic-500.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v20-cyrillic-700.woff2") format("woff2"), url("../fonts/roboto-v20-cyrillic-700.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/roboto-v20-cyrillic-900.woff2") format("woff2"), url("../fonts/roboto-v20-cyrillic-900.woff") format("woff");
 }
 
 @font-face {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/releway/raleway-v17-latin-700.woff2") format("woff2"), url("../fonts/releway/raleway-v17-latin-700.woff") format("woff");
+  src: url("../fonts/raleway-v17-latin-700.woff2") format("woff2"), url("../fonts/raleway-v17-latin-700.woff") format("woff");
 }
 
 /*! modern-normalize v0.7.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -574,14 +602,14 @@ img {
   height: 100%;
 }
 
-.form .link {
+.form .btn-submit {
   margin-top: auto;
   margin-left: auto;
   margin-right: auto;
   width: 200px;
 }
 
-.form .link:focus {
+.form .btn-submit:focus {
   background-color: #188ce8;
 }
 
